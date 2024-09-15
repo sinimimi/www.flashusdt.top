@@ -1,0 +1,45 @@
+.floating-parent{
+	position: fixed;
+	bottom: 8%;
+	right: 20px;
+	text-align: center;
+	color: #00778b;
+}
+.floating-parent .right-button{
+	width: 80px;
+	height: 80px;
+	background: url(./theme-assets/images/whatsapp-104.png);
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-color: #00778b;
+	background-size: 24px;
+	background-position: center;
+	float: right;
+	margin: 0 auto;
+	cursor: pointer;
+	box-shadow: 0 -2px 3px -1px #00778b;
+}
+
+.float-parent{
+	position: fixed;
+	bottom: 8%;
+	left: 20px;
+	text-align: center;
+	color: #194089;
+}
+.float-parent .left-button{
+	width: 80px;
+      height: 80px;
+      background: url("../img/telegram-256.png");
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-color: #194089;
+      background-size: 24px;
+      background-position: center;
+      float: left;
+      margin: 0 auto;
+      cursor: pointer;
+      box-shadow: 0 -2px 3px -1px #00778b;
+      border: none;
+      outline: none;
+}
